@@ -12,7 +12,7 @@ var TimeLineModule = (function () {
     var thisModulesOutermostDiv = "patientTimeLinesDiv";
     
     var then, now;
-var test;
+
 	// Data Elements
 	//--------------------------------------------------------------------------------------------------
 		var EventTypes;
@@ -661,6 +661,7 @@ var test;
 			var SideplotVal = SideSel.text;
 		
 	   		if(SideSel.parentNode.label == "Category"){
+  		//TO DO 
 			} else if(SideSel.parentNode.label == "Value"){
 				var calc = ptList[ptOrderArray[0]].calcEvents;
 				var typeNum = -1;
